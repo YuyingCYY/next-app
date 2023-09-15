@@ -39,7 +39,13 @@
 
 在客戶端上，通常使用 useState()來聲明狀態變量，並使用 useEffect()來調用後端獲取資料並放入狀態變量中
 
-### Caching
+### Static Rendering
+
+靜態渲染：如果有包含靜態數據的頁面或組件，我們可以在建構應用程式時讓 next js 渲染它們一次，因此下次需要這些頁面或元件時，next js 不會重新渲染，而是從基於文件系統的緩存中獲取有效負載或內容
+
+### Dynamic Rendering
+
+動態渲染：在請求時渲染
 
 Storing data somewhere that is faster to access
 將資料儲存在訪問速度更快的地方
